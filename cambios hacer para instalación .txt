@@ -1,0 +1,24 @@
+1.crear Una base de datos con un esquema llamado carrito e importar la base de datos enviada.
+
+2.dentro del elemento conexión.js de la carpeta node_modules a su ves dentro de la carpeta Backend en mi proyecto, cambiar la contraseña "password" por su contraseña que configuro al momento de instalar MySQLWorkbench:
+
+linea-12
+
+ //conexión a la base de datos MySQL
+const db = mysql2.createConnection({
+  host: "localhost", // Nombre del host de la base de datos
+  user: "root", // Nombre de usuario para acceder a la base de datos
+  password: "xxxxxxx", // Contraseña para acceder a la base de datos
+  database: "carrito", // Nombre de la base de datos a la que se conectará
+});
+
+3. Dividir la terminar en dos powershell y ingresar:
+
+
+ cd '.\proyecto integrador purezza (1)\TiendaArmas\' 
+npm run dev
+r 
+ cd '.\proyecto integrador purezza (1)\backend\'
+node .\conexion.js  
+
+                           
