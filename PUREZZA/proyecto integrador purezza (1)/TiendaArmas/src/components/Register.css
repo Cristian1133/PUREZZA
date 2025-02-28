@@ -1,0 +1,43 @@
+.register {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  background-color: #f0f0f0; 
+  
+}
+
+.form-containera {
+  width: 40%; 
+  padding: 20px;
+  background-color: #ffffff; 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--bahama-blue-800);
+  color: var(--bahama-blue-950);
+  animation-name: changeBackgroundColor;
+animation-duration:4s;
+animation-iteration-count: infinite;
+font-size: 20px;
+font-weight: bold;
+box-sizing: border-box;
+}
+
+.bn29 {
+  width: 200px; /* Ancho específico en píxeles */
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto; /* Centrar el botón horizontalmente y añadir margen superior e inferior */
+}
+
+.bn29:hover {
+  background-color: #0056b3;
+}
